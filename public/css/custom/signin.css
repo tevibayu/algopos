@@ -1,0 +1,82 @@
+#javavalley.skin-default .boxNav{
+  background: #3f4551;
+  height: 100vh;
+}
+/*#javavalley.skin-default .boxNav{
+  background: #3f4551;
+  height: 100vh;
+}*/
+
+#javavalley.skin-default .content-wrapper.content-login .content.new .main-tracking{
+  background-color: white;
+  border-radius: 8px;
+  padding-top: 30px;
+}
+
+#javavalley.skin-default .content-wrapper.content-login .content.new{
+  max-width: 440px;
+}
+
+
+#javavalley.skin-default .content-wrapper.content-login .content.new .head-section{
+  padding-bottom: 20px;
+}
+#javavalley.skin-default .content-wrapper.content-login .content.new .head-section .left-section{
+  width: 100%;
+  margin: 0 auto;
+}
+
+#javavalley.skin-default .content-login .boxLogo{
+  width: 100%;
+  text-align: center;
+}
+
+#javavalley.skin-default .content-login .boxLogo img{
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+#javavalley.skin-default .content-login .content.new .boxTitle{
+  text-align: center;
+  width: 100%;
+  top: 7px;
+}
+
+#javavalley.skin-default .content-login .content.new .boxTitle h3{
+  margin-bottom: inherit!important;
+  font-weight: 200!important;
+  letter-spacing: 0!important;
+  font-size: 36px;
+}
+#javavalley.skin-default .content-wrapper.content-login .content.new .main-tracking span{
+  font-size: 1.125em;
+  letter-spacing: 0;
+  display: block;
+  margin-top: -2px;
+  font-weight: normal;
+}
+
+#javavalley.skin-default .content-wrapper.content-login .content.new label{
+  margin-bottom: 3px;
+  font-weight: normal;
+
+}
+
+#javavalley.skin-default .content-login .btn.btn-primary{
+  width: 100%;
+  padding: 12px;
+  font-size: 1em;
+  letter-spacing: 1px;
+}
+
+#javavalley.skin-default .content-login .btn.btn-warning{
+  width: 100%;
+  padding: 12px;
+  font-size: 1em;
+  letter-spacing: 1px;
+}
+
+#javavalley.skin-default .content-login .content.new input.full-input{
+  border-radius: 3px;
+}

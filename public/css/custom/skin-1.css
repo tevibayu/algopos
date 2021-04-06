@@ -1,0 +1,2882 @@
+/*
+  Default Color
+  Setup your color
+  darkBlue: #3f4551
+  red: #e9545a
+  green: #52be7f
+  blue: #00a9e8
+  yellow: #f39c12
+
+  white: #fbfcfc
+  softGray: #d9dfe2
+  seconGray: #b6c4c5
+
+*/
+
+
+#javavalley.skin-default .main-header .navbar .sidebar-toggle:hover{
+  background-color: rgba(0,0,0,.02) !important;
+  background: rgba(0,0,0,.02) !important;
+}
+
+#javavalley.skin-default .bg-blue{
+  background-color: #00a9e8 !important;
+}
+#javavalley.skin-default .content-wrapper.content-login{
+  /*overflow: hidden;*/
+  margin-left: 0px;
+  padding-top: 50px;
+}
+
+#javavalley.skin-default .content-wrapper.content-login .content.new .main-tracking{
+  padding-bottom: 60px;
+}
+
+#javavalley.skin-default .content-wrapper.content-login .content.new .content-section{
+  padding-top: 0;
+}
+
+#javavalley.skin-default .content-wrapper.content-login .content.new .main-tracking h3{
+  margin-bottom: 15px;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+
+
+#javavalley.skin-default .content-wrapper.content-login .content.new label{
+  margin-bottom: 15px;
+}
+#javavalley.skin-default .left-section, #javavalley.skin-default .right-section{
+  display: inline-block;
+}
+#javavalley.skin-default .boxLogo{
+  width: 90px;
+  height: 90px;
+  margin-right: 10px;
+}
+#javavalley.skin-default .boxTitle{
+ position: relative;
+ top: 20px;
+}
+#javavalley.skin-default .boxLogo img{
+width: 90px;
+height: 90px;
+}
+
+#javavalley.skin-default .content-wrapper.content-login .content.new{
+  background-color: rgba(255, 255, 255, 0);
+border: solid 1px rgba(235, 235, 235, 0);
+box-shadow: 0px 0px 14px 1px rgba(0, 0, 0, 0);
+}
+
+#javavalley.skin-default .content-wrapper.content-login .content.new .main-tracking span{
+  color: #999999;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+}
+
+#javavalley.skin-default .content-wrapper.content-login .content.new .head-section{
+  padding-bottom: 45px;
+  border: none
+}
+
+
+
+/* placeholder */
+#javavalley.skin-default ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+
+  font-size: 11px;
+}
+#javavalley.skin-default ::-moz-placeholder { /* Firefox 19+ */
+
+  font-size: 11px;
+}
+#javavalley.skin-default :-ms-input-placeholder { /* IE 10+ */
+
+  font-size: 11px;
+}
+#javavalley.skin-default :-moz-placeholder { /* Firefox 18- */
+
+  font-size: 11px;
+}
+
+#javavalley.skin-default .bg-red,
+#javavalley.skin-default .callout.callout-danger,
+#javavalley.skin-default .alert-danger,
+#javavalley.skin-default .alert-error,
+#javavalley.skin-default .label-danger,
+#javavalley.skin-default .modal-danger .modal-body{
+  background-color: #e9545a !important;
+}
+
+#javavalley.skin-default table a {
+  color: #00a9e8;
+}
+
+
+
+/* Col */
+#javavalley.skin-default .control-col{
+  padding-left: 0;
+}
+
+
+/* Button */
+#javavalley.skin-default .small-info{
+  font-size: 1em;
+  color: #d9dfe2;
+  width: 100%;
+  max-width: 200px;
+  display: block;
+  line-height: 2;
+  margin-top: 10px;
+  font-style: italic;
+
+}
+
+
+
+
+#javavalley.skin-default .btn{
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+}
+#javavalley.skin-default .btn-control{
+  margin: 15px auto;
+}
+#javavalley.skin-default .btn-default{
+  background-color: rgba(0,0,0,0);
+  color: #ffffff;
+  border-color: rgba(0,0,0,0);
+  font-size: 25px;
+}
+#javavalley.skin-default .btn-primary{
+  background-color: #00a9e8;
+  color: #ffffff;
+  border-color: #00a9e8;
+  font-size: 12px;
+}
+#javavalley.skin-default .btn-close-primary{
+  background-color: rgba(255, 255, 255, 0);
+  color: #00a9e8;
+  border-color: #00a9e8;
+  font-size: 12px;
+  padding: 10px 25px;
+}
+#javavalley.skin-default .btn-close-primary:hover{
+  background-color: #00a9e8;
+  color: #ffffff;
+  border-color: #00a9e8;
+}
+#javavalley.skin-default table.table-default .btn-xs.btn-warning{
+  background-color: #f39c12;
+  color: #ffffff !important;
+  border-color: #f39c12;
+  font-size: 12px;
+  padding: 1px 5px;
+  /*font-size: 25px;*/
+}
+#javavalley.skin-default table.table-default .btn-xs.btn-gray{
+  background-color: #999999;
+  color: #ffffff !important;
+  border-color: #999999;
+  font-size: 12px;
+  padding: 1px 5px;
+  /*font-size: 25px;*/
+}
+#javavalley.skin-default table.table-default .btn-xs.btn-success{
+  background-color: #00a9e8;
+  color: #ffffff !important;
+  border-color: #00a9e8;
+  font-size: 12px;
+  padding: 1px 5px;
+  /*font-size: 25px;*/
+
+
+}
+#javavalley.skin-default table.table-default .btn-xs.btn-error{
+  background-color: #e9545a;
+  color: #ffffff !important;
+  border-color: #e9545a;
+  font-size: 12px;
+  padding: 1px 5px;
+  /*font-size: 25px;*/
+
+
+}
+#javavalley.skin-default table.table-default .btn-xs.btn-primary{
+  background-color: #00a9e8;
+  color: #ffffff !important;
+  border-color: #00a9e8;
+  font-size: 12px;
+  padding: 1px 5px;
+  /*font-size: 25px;*/
+
+
+}
+/*#javavalley.skin-default table.table-default a.link-gray{
+  color: #3f4551 !important;
+  font-weight: bold;
+  font-size: 12px;
+}*/
+#javavalley.skin-default .table.table-default > tbody > tr i{
+  color: #ffffff !important;
+}
+#javavalley.skin-default .table.table-default > tbody > tr i.fa-lock{
+  color: #444444 !important;
+}
+#javavalley.skin-default .table.table-default > tbody > tr .btn i.fa-lock{
+  color: #ffffff !important;
+}
+#javavalley.skin-default .table.table-default > tbody > tr i.fa-comment-o{
+  color: #999999 !important;
+}
+
+#javavalley.skin-default .table.table-default > tbody > tr i.fa-arrow-right{
+  color: #444444 !important;
+}
+#javavalley.skin-default table.table-default td i.fa-camera{
+  /*color: #e9545a !important;*/
+  color: #e9545a !important;
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  background: #d4d4d4;
+  border-radius: 50%;
+  font-size: .7em;
+  text-align: center;
+  line-height: 2;
+
+
+}
+
+#javavalley.skin-default table.table-default td > .label{
+  display: inline-block;
+  font-size: 13px !important;
+  /*margin: 5px auto;*/
+  margin: 0px auto 10px;
+  padding: 6px 10px;
+}
+#javavalley.skin-default table.table-default span.label{
+  padding: 5px !important;
+
+}
+#javavalley.skin-default .btn-warning:hover{
+  background-color: #f39c12 !important;
+  color: #ffffff !important;
+  border-color: #f39c12;
+  /*font-size: 25px;*/
+}
+#javavalley.skin-default .btn-default:hover{
+  background-color: rgba(0,0,0,0) !important;
+  color: #ffffff;
+  border-color: rgba(0,0,0,0);
+}
+
+#javavalley.skin-default .btn-success{
+  background: #52be7f;
+  border-color: #52be7f;
+  box-shadow: 1px 0px 5px 1px rgba(0,0,0,.1);
+  padding: 10px 25px;
+
+}
+#javavalley.skin-default .btn-primary{
+  background: #00a9e8;
+  border-color: #00a9e8;
+  box-shadow: 1px 0px 5px 1px rgba(0,0,0,.1);
+  padding: 10px 25px;
+
+}
+#javavalley.skin-default .btn-xs.btn-primary{
+
+  padding: 2px 5px;
+
+}
+#javavalley.skin-default .btn-success:hover{
+  background-color: #4faf76 !important;
+  border-color: #4faf76;
+}
+
+#javavalley.skin-default .btn.btn-s.btn-primary{
+  background-color: #00a9e8 !important;
+  color: #ffffff;
+  border-color: #00a9e8!important;
+  font-size: 18px!important;
+  box-shadow: 1px 0px 5px 1px rgba(0, 0, 0, 0)!important;
+  padding: 4px 25px!important;
+}
+
+
+/* Typography */
+#javavalley.skin-default h1{
+  font-family: "Roboto", sans-serif;
+}
+#javavalley.skin-default .content-header > h1{
+  font-size: 20px;
+  font-weight: bold;
+}
+#javavalley.skin-default .product-info a{
+  color: #000000;
+  font-weight: bold;
+}
+
+/* Header */
+
+#javavalley.skin-default .sidebar-menu small.label.pull-right.bg-red{
+  margin-right: 10px;
+}
+
+@media (min-width: 768px){
+  #javavalley.skin-default .main-header .sidebar-toggle{
+    padding: 6px 15px;
+  }
+  #javavalley.skin-default .main-header  .nav.navbar-nav > li > a {
+      padding-top: 11px;
+      padding-bottom: 15px;
+   }
+}
+
+#javavalley.skin-default .main-header > .navbar {
+    /* Skin default */
+    background-color: #fbfcfc;
+}
+
+#javavalley.skin-default .main-header > .navbar a{
+    /* Skin default */
+    color: #a5a5a5;
+    border-top: 5px solid rgba(255,255,255,0);
+}
+#javavalley.skin-default .nav.navbar-nav > li > a:hover,
+#javavalley.skin-default .nav.navbar-nav > li > a:focus{
+  background-color: rgba(0,0,0,.02) !important;
+  border-top: 5px solid rgba(255,255,255,0);
+}
+#javavalley.skin-default .main-header  .navbar-nav > li > a > i{
+    font-size: 20px;
+ }
+
+ #javavalley.skin-default .main-header .navbar .nav > li.user > a > .fa,
+ #javavalley.skin-default .main-header .navbar .nav > li.user > a > .glyphicon,
+ #javavalley.skin-default .main-header .navbar .nav > li.user > a > .ion{
+   margin-right: 15px;
+ }
+
+
+#javavalley.skin-default .main-header a {
+    /* Skin default */
+    color: #ffffff;
+}
+
+#javavalley.skin-default .navbar-nav > .user-menu > .dropdown-menu > li.user-header{
+  height: 95px;
+  padding: 30px;
+  text-align: center;
+}
+#javavalley.skin-default .navbar-nav > .user-menu > .dropdown-menu > li.user-header > img{
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin-right: 15px;
+  margin-top: 0;
+  padding-top: 0;
+}
+#javavalley.skin-default .navbar-nav > .user-menu > .dropdown-menu > li.user-header > p{
+  color: #000000;
+  text-align: left;
+  margin-top: 0;
+}
+
+#javavalley.skin-default .navbar-nav > .user-menu > .dropdown-menu > .user-footer{
+  padding: 0 0;
+
+}
+#javavalley.skin-default .navbar-nav > .user-menu > .dropdown-menu > .user-footer > .userInner{
+  border-top: 1px solid rgba(0,0,0,.1);
+
+}
+#javavalley.skin-default .navbar-nav > .user-menu > .dropdown-menu > .user-footer > .userInner a{
+  color: #3f4551;
+  font-size: 12px;
+
+}
+#javavalley.skin-default .navbar-nav > .user-menu > .dropdown-menu > .user-footer > .userInner a:hover{
+  color: #00a9e8;
+
+
+}
+/* Breadcrumb */
+@media (max-width: 991px){
+  #javavalley.skin-default .content-header > .breadcrumb {
+      position: relative;
+      margin-top: 5px;
+      top: 0;
+      right: 0;
+      float: none;
+      background: rgba(0,0,0,0);
+      padding-left: 10px;
+  }
+}
+#javavalley.skin-default .content-header > .breadcrumb > li > a{
+  font-size: 12px;
+  font-family: "roboto", sans-serif;
+  font-weight: bold;
+  color: #999999;
+}
+#javavalley.skin-default .content-header > .breadcrumb > li.active a{
+  color: #444444;
+}
+/* sidebar */
+#javavalley.skin-default .sidebar a {
+    /* Skin default */
+    color: #ffffff;
+}
+#javavalley.skin-default .main-header a.sidebar-toggle {
+    /* Skin default */
+    color: #d9dfe2;
+    font-size: 25px;
+}
+
+#javavalley.skin-default .sidebar-menu .treeview-menu > li > a{
+  padding: 10px 5px 10px 25px;
+  display: block;
+  font-size: 14px;
+}
+#javavalley.skin-default .sidebar-menu .treeview-menu > li > a:hover{
+
+}
+
+#javavalley.skin-default .sidebar-menu{
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+#javavalley.skin-default .user-panel > .info > p {
+    font-size: 16px;
+}
+#javavalley.skin-default .user-panel > .info > p span.small {
+    display: block;
+    font-size: 11px;
+    margin: 5px auto;
+}
+
+#javavalley.skin-default .user-panel{
+  padding: 0 0;
+}
+
+#javavalley.skin-default .user-panel > .info{
+    padding: 20px 25px 4px;
+    width: 100%;
+    /*border-top: 1px solid rgba(255,255,255,.3);
+    border-bottom: 1px solid rgba(255,255,255,.3);*/
+    margin-bottom: 10px
+}
+#javavalley.skin-default .user-panel > .info > p i{
+    color: #4cceff;
+    font-size: 20px;
+}
+
+#javavalley.skin-default .sidebar-menu > li > a {
+    border-left: 3px solid transparent;
+    margin-right: 1px;
+    padding: 10px 5px 10px 25px;
+}
+
+#javavalley.skin-default .sidebar-menu > li > a > .fa,
+#javavalley.skin-default .sidebar-menu > li > a > .glyphicon,
+#javavalley.skin-default .sidebar-menu > li > a > .ion{
+  width: 16px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+
+#javavalley.skin-default .sidebar-menu > li > a:hover,
+#javavalley.skin-default .sidebar-menu > li.active > a{
+    /* Skin default */
+    border-left-color: #00a9e8;
+}
+
+
+#javavalley.skin-default .sidebar-menu > li.active > a{
+  color: #fff;
+  background: rgba(255, 255, 255, 0.08);
+  border-left-color: rgba(0,0,0,0);
+}
+
+#javavalley.skin-default .sidebar-menu > li > a:hover{
+  color: #fff;
+  background: rgba(0, 0, 0, 0.1);
+  border-left-color: rgba(0,0,0,0);
+}
+
+
+#javavalley.skin-default .center {
+  /*width: 100%;*/
+  display: block;
+  float: left;
+
+
+  /*padding: 0 25px;*/
+}
+#javavalley.skin-default .center button {
+  /*width: 100%;*/
+  border-top: 5px solid rgba(0,0,0,0);
+
+  /*padding: 0 25px;*/
+}
+#javavalley.skin-default .center button:hover{
+  /*width: 100%;*/
+
+  border-top: 5px solid rgba(0,0,0,0);
+  background-color: rgba(0,0,0,.02) !important;
+
+  /*padding: 0 25px;*/
+}
+#javavalley.skin-default .center .btn:first-child{
+  float: left;
+  color: #d9dfe2;
+}
+#javavalley.skin-default .center .btn:last-child{
+  float: right;
+  color: #d9dfe2;
+}
+
+/* Content */
+#javavalley.skin-default .invoice h2{
+font-weight: bold;
+}
+
+#javavalley.skin-default .label-infoiceInfo{
+  font-weight: normal;
+  color: #d0d0d0;
+  margin-right: 10px;
+  width: 150px;
+  display: inline-block;
+  /*max-width: 200px;*/
+}
+#javavalley.skin-default  span:last-child{
+font-weight: bold;
+font-size: 1em;
+}
+#javavalley.skin-default .tab-content .innerContent .div-bordered.opr-box{
+  padding: 10px;
+}
+
+#javavalley.skin-default .box.box-success{
+  border-top-color: rgba(255,255,255,0);
+  background: rgba(0,0,0,0);
+  box-shadow: none;
+}
+#javavalley.skin-default .content-header{
+  padding: 20px 25px 0 25px;
+}
+#javavalley.skin-default .content{
+  /*overflow: hidden;*/
+  padding: 15px 0;
+  padding-right: 0;
+  padding-left: 0;
+  /*background-color: #fbfcfc;*/
+  /*margin-top: 15px;*/
+}
+
+#javavalley.skin-default .content-wrapper,
+#javavalley.skin-default .right-side{
+  /*overflow: hidden;*/
+  background-color: #ececec;
+}
+#javavalley.skin-default .wrapper,
+#javavalley.skin-default .main-sidebar,
+#javavalley.skin-default .left-side{
+  /* Skin default */
+  background: #3f4551;
+
+}
+
+#javavalley.skin-default  span.result{
+  color: #b6c4c5;
+}
+#javavalley.skin-default  h3.box-title{
+  margin-top: 5px;
+}
+
+
+
+
+/* Content Box / panel */
+#javavalley.skin-default .nav.nav-tabs{
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: .5px;
+}
+#javavalley.skin-default .nav.nav-tabs .form-group{
+  margin-bottom: 0 !important;
+}
+#javavalley.skin-default .nav.nav-tabs .btn-success{
+  position: relative;
+  /*top: 12px;
+  padding: 10px 15px;*/
+  position: relative;
+  padding: 10px 20px;
+  top: 7px;
+}
+
+#javavalley.skin-default .nav-tabs > li.active > a{
+
+    background-color: #fbfcfc;
+}
+#javavalley.skin-default .nav.nav-tabs > li.active > a,
+#javavalley.skin-default .nav.nav-tabs > li.active > a:hover,
+#javavalley.skin-default .nav.nav-tabs > li.active > a:focus{
+  border: none;
+  background-color: #fbfcfc;
+}
+
+#javavalley.skin-default .nav.nav-tabs > li{
+    top: 0;
+    /*opacity: .5;*/
+
+  }
+#javavalley.skin-default .nav.nav-tabs > li.active{
+    top: 0px;
+    opacity: 1;
+}
+#javavalley.skin-default .nav.nav-tabs > li > a{
+    padding: 11px 15px;
+    /*background-color: rgba(0,0,0,0);*/
+    color: #00a9e8;
+    border-radius: 4px;
+    margin-right: 0;
+}
+#javavalley.skin-default .nav.nav-tabs > li.active > a{
+    padding: 11px 15px;
+    color: #3f4551;
+
+}
+
+
+#javavalley.skin-default .nav-tabs > li > a,
+#javavalley.skin-default .nav-tabs > li > a:hover{
+  border: none;
+  /*color: #00a9e8;*/
+
+}
+
+#javavalley.skin-default .nav.nav-tabs > li > a,
+#javavalley.skin-default .nav.nav-tabs > li > a:hover,
+#javavalley.skin-default .nav.nav-tabs > li > a:focus{
+
+  /*background-color: #efefef;*/
+  border-top: 0 solid #00a9e8 !important;
+}
+
+#javavalley.skin-default .nav.nav-tabs > li > a:hover,
+#javavalley.skin-default .nav.nav-tabs > li > a:focus{
+
+  background: #efefef;
+
+}
+
+#javavalley.skin-default .nav > li > a:hover,
+#javavalley.skin-default .nav > li > a:focus
+#javavalley.skin-default .box{
+  /*padding: 0 0px;*/
+  background: rgba(0,0,0,0);
+  box-shadow: none;
+}
+#javavalley.skin-default .box-header.with-border{
+  border: none;
+  padding: 10px 0;
+}
+#javavalley.skin-default .box-header{
+  padding: 10px 25px 0;
+  position: relative;
+}
+#javavalley.skin-default .tab-content{
+  padding: 0 25px;
+  background-color: #fbfcfc;
+  position: relative;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+/* paging */
+#javavalley.skin-default .pagination > li > a,
+#javavalley.skin-default .pagination > li > span{
+  padding: 6px 23px;
+  margin-left: 3px;
+  border-radius: 100px;
+
+}
+#javavalley.skin-default .pagination > .disabled > span,
+#javavalley.skin-default .pagination > .disabled > span:hover,
+#javavalley.skin-default .pagination > .disabled > span:focus,
+#javavalley.skin-default .pagination > .disabled > a,
+#javavalley.skin-default .pagination > .disabled > a:hover,
+#javavalley.skin-default .pagination > .disabled > a:focus{
+
+}
+
+#javavalley.skin-default .pagination > .active > a,
+#javavalley.skin-default .pagination > .active > a:hover,
+#javavalley.skin-default .pagination > .active > a:focus,
+#javavalley.skin-default .pagination > .active > span,
+#javavalley.skin-default .pagination > .active > span:hover,
+#javavalley.skin-default .pagination > .active > span:focus{
+
+  background-color: #00a9e8;
+  border-color: #00a9e8;
+
+}
+
+  /* Chat */
+#javavalley.skin-default .right .direct-chat-img {
+  float: left;
+}
+
+#javavalley.skin-default .right .direct-chat-info > span{
+  display: block;
+  width: 100%;
+}
+#javavalley.skin-default .right .direct-chat-text{
+  display: block;
+  width: 80%;
+  float: left;
+  margin-left: 10px;
+  margin-right: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+#javavalley.skin-default .right span.direct-chat-name{
+  font-size: 13px;
+  color: #000000;
+}
+
+#javavalley.skin-default .direct-chat-text:after,
+#javavalley.skin-default .direct-chat-text:before{
+      content: none;
+}
+
+#javavalley.skin-default .direct-chat-warning .right > .direct-chat-text{
+  background: rgba(0,0,0,0);
+  border-color: rgba(0,0,0,0);
+  color: #b6c4c5;
+
+}
+
+/* label */
+#javavalley.skin-default .label-success{
+  background-color: #52be7f !important;
+  color: #ffffff !important;
+  border-color: #f36d38;
+  font-size: 12px;
+  /*padding: 1px 5px;*/
+}
+
+#javavalley.skin-default .info-success{
+  padding: 10px;
+  background-color: #52be7f;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #52be7f;
+}
+
+
+
+/* form */
+@media (min-width: 768px){
+  #javavalley.skin-default .form-horizontal .control-label {
+      text-align: right;
+      margin-bottom: 15px;
+      padding-top: 7px;
+  }
+}
+
+#javavalley.skin-default .content textarea,
+#javavalley.skin-default .content input[type="text"]{
+   width: 100%;
+   padding: 5px 20px;
+   border: solid 1px #c8d4da;
+   background-color: #ffffff;
+   border-radius: 5px !important;
+   /*font-style: italic;*/
+   font-size: 14px;
+}
+#javavalley.skin-default .content textarea.form-control:focus,
+#javavalley.skin-default .content input.full-input:focus{
+  outline: none;
+  border: solid 1px #c8d4da !important;
+  box-shadow: 1px 1px 5px 1px rgba(0,0,0,.1);
+}
+
+
+/* Footer */
+#javavalley.skin-default .main-footer{
+  /*background: #f4f5f6;*/
+  /*padding: 15px;
+  margin-bottom: 0.5%;
+  color: #FFF;*/
+  /*border-top: 1px solid #f4f5f6;*/
+}
+
+#javavalley.skin-default footer{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 35px;
+  background: #ededed;
+  border-top: 0px solid #dbdbdb;
+  padding: 0px 25px;
+  z-index: 9999;
+}
+
+#javavalley.skin-default  footer.main-footer{
+  margin-bottom: 0 !important;
+}
+
+#javavalley.skin-default  footer.main-footer{
+  margin-bottom: 0 !important;
+}
+
+#javavalley.skin-default  footer.main-footer strong{
+  color: #3f4551;
+  line-height: 1;
+}
+
+#javavalley.skin-default  footer.main-footer strong span{
+  display: block;
+  text-align: center;
+}
+#javavalley.skin-default  footer.main-footer strong span:first-child{
+  padding-top: 2px;
+}
+
+#javavalley.skin-default  footer.main-footer .copy strong {
+  line-height: 2.5;
+  font-size: .9em;
+  font-weight: normal;
+}
+#javavalley.skin-default  footer.main-footer .backtop {
+  margin-right: 15px;
+  padding: 8px;
+  cursor: pointer;
+  float: left;
+  display: inline-block;
+  color: #3f4551;
+}
+#javavalley.skin-default  footer.main-footer .backtop a {
+  color: #3f4551;
+  font-weight: normal;
+  display: inline-block;
+}
+#javavalley.skin-default  footer.main-footer .backtop span {
+
+  display: inline-block;
+  margin-right: 5px;
+}
+#javavalley.skin-default  footer.main-footer .lang {
+  margin-right: 15px;
+  padding: 8px;
+  cursor: pointer;
+  display: inline-block;
+}
+#javavalley.skin-default  footer.main-footer .lang:hover,
+#javavalley.skin-default  footer.main-footer .backtop:hover {
+  background-color: rgba(0,0,0,.1)
+}
+#javavalley.skin-default  footer.main-footer .lang span {
+  color: #3f4551;
+}
+
+/* data table */
+#javavalley.skin-default div.dataTables_wrapper div.dataTables_filter input{
+  margin-left: 10px;
+  width: 100%;
+}
+#javavalley.skin-default div.dataTables_wrapper div.dataTables_filter label{
+  /*margin-top: 10px;*/
+  margin-bottom: 20px;
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+  margin-top: 0;          /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+/* Table */
+
+#javavalley.skin-default table.table-default.dataTable thead .sorting:after,
+#javavalley.skin-default table.table-default.dataTable thead .sorting_asc:before,
+#javavalley.skin-default table.table-default.dataTable thead .sorting_asc:after,
+#javavalley.skin-default table.table-default.dataTable thead .sorting_desc:before,
+#javavalley.skin-default table.table-default.dataTable thead .sorting_desc:after,
+#javavalley.skin-default table.table-default.dataTable thead .sorting_asc_disabled:before,
+#javavalley.skin-default table.table-default.dataTable thead .sorting_asc_disabled:after,
+#javavalley.skin-default table.table-default.dataTable thead .sorting_desc_disabled:before,
+#javavalley.skin-default table.table-default.dataTable thead .sorting_desc_disabled:after,
+#javavalley.skin-default table.table-default.dataTable thead .sorting:before,
+#javavalley.skin-default table.table-default.dataTable thead .sorting:after,
+#javavalley.skin-default table.table-default.dataTable thead .sorting_asc:before,
+#javavalley.skin-default table.table-default.dataTable thead .sorting_asc:after,
+#javavalley.skin-default table.table-default.dataTable thead .sorting_desc:before,
+#javavalley.skin-default table.table-default.dataTable thead .sorting_desc:after,
+#javavalley.skin-default table.table-default.dataTable thead .sorting_asc_disabled:before,
+#javavalley.skin-default table.table-default.dataTable thead .sorting_asc_disabled:after,
+#javavalley.skin-default table.table-default.dataTable thead .sorting_desc_disabled:before,
+#javavalley.skin-default table.table-default.dataTable thead .sorting_desc_disabled:after{
+  bottom: 35%;
+}
+
+#javavalley.skin-default .table.table-default > thead > tr > td.success,
+#javavalley.skin-default .table.table-default > thead > tr > th.success,
+#javavalley.skin-default .table.table-default > thead > tr.success > td,
+#javavalley.skin-default .table.table-default > thead > tr.success > th,
+#javavalley.skin-default .table.table-default > tbody > tr > td.success,
+#javavalley.skin-default .table.table-default > tbody > tr > th.success,
+#javavalley.skin-default .table.table-default > tbody > tr.success > td,
+#javavalley.skin-default .table.table-default > tbody > tr.success > th,
+#javavalley.skin-default .table.table-default > tfoot > tr > td.success,
+#javavalley.skin-default .table.table-default > tfoot > tr > th.success,
+#javavalley.skin-default .table.table-default > tfoot > tr.success > td,
+#javavalley.skin-default .table.table-default > tfoot > tr.success > th{
+  background-color: #ffffff;
+}
+
+#javavalley.skin-default table.table-default {
+  margin-bottom: 20px !important;
+  border: 1px solid #d9dfe2;
+
+}
+#javavalley.skin-default table.table.table-default > thead > tr > th {
+
+  border-bottom: 1px solid #d9dfe2;
+  vertical-align: middle;
+  height: 50px;
+}
+#javavalley.skin-default .table.table-default > thead > tr > th,
+#javavalley.skin-default .table.table-default > tbody > tr > th,
+#javavalley.skin-default .table.table-default > tfoot > tr > th,
+#javavalley.skin-default .table.table-default > thead > tr > td,
+#javavalley.skin-default .table.table-default > tbody > tr > td,
+#javavalley.skin-default .table.table-default > tfoot > tr > td{
+  border-top: 1px solid #d9dfe2;
+}
+
+#javavalley.skin-default .table.table-default > thead > tr > th{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#javavalley.skin-default .table.table-default > tbody > tr > td{
+  padding: 15px 15px;
+}
+#javavalley.skin-default .table.table-default > tbody > tr > td > b{
+  /*color: #b6c4c5;*/
+  color: #787878;
+  display: block;
+  width: 100%;
+  font-weight: normal;
+  font-size: 14px;
+
+}
+#javavalley.skin-default .table.table-default > tbody > tr > td > span{
+  padding-left: 0;
+  font-size: 14px;
+  /*color: #b6c4c5;*/
+  color: #787878;
+  display: block;
+  padding-top: 0;
+}
+#javavalley.skin-default .table.table-default > tbody > tr > td > a  {
+  color: #00a9e8;
+}
+#javavalley.skin-default .table.table-default > tbody > tr > td > a .btn-default {
+  color: #999999;
+  font-size: 12px;
+  background-color: #f3f3f3;
+  border-radius: 6px;
+}
+
+#javavalley.skin-default .table.table-default > tbody > tr > td > a .btn-default:hover {
+  background-color: #e8e8e8 !important;
+}
+#javavalley.skin-default .table.table-default > tbody > tr:hover {
+  background-color: rgba(0,0,0,.02) !important;
+}
+
+/*#javavalley.skin-default .table-striped > tbody > tr:nth-of-type(2n+1){
+  background-color: rgba(0,0,0,0);
+}*/
+
+#javavalley.skin-default .table.table-default > tbody > tr > td .boxImg{
+  position: relative;
+  top: 0;
+  width: 100px;
+  height: 100px;
+  /*text-align: center;*/
+  background-color: #ffffff;
+  vertical-align: middle;
+  display: table-cell;
+  text-align: center;
+}
+#javavalley.skin-default .table.table-default > tbody > tr > td .boxImg span{
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  float: left;
+  z-index: 2;
+  text-align: center;
+  background-color: #f4f7f8;
+  color: #444444;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#javavalley.skin-default .table.table-default > tbody > tr > td .boxImg img{
+  vertical-align: middle;
+  /*width: 100%;*/
+  max-width: 100px;
+  max-height: 100px;
+
+}
+#javavalley.skin-default table.table-default thead th{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #b6c4c5;
+}
+#javavalley.skin-default table.table-default tbody{
+  font-family: 'Roboto', sans-serif;
+
+}
+
+#javavalley.skin-default .table-default.table-striped > tbody > tr:nth-of-type(2n+1){
+  background-color: rgba(0,0,0,0);
+}
+#javavalley.skin-default .table-default thead{
+  background: #f4f7f8;
+  border: 1px solid #d9dfe2;
+}
+
+
+
+
+/* checkbox */
+
+#javavalley.skin-default .checkbox{
+  position: relative;
+  top: 0;
+  float: left;
+
+
+  width: 100%;
+  height: 30px;
+
+
+}
+#javavalley.skin-default .checkbox label{
+  display: block;
+  position: relative;
+  font-weight: 300;
+  font-size: 1.35em;
+  width: 100%;
+  height: 20px;
+  z-index: 9;
+  cursor: pointer;
+  border-radius: 4px;
+}
+#javavalley.skin-default .checkbox label:before{
+  display: block;
+  position: absolute;
+	content: '';
+  height: 20px;
+  width: 20px;
+  top: 0px;
+	left: 0px;
+  margin: auto;
+  border-radius: 4px;
+  background-color: #fbfcfc;
+  border: 1px solid #d9dfe2;
+
+}
+#javavalley.skin-default .modal-title{
+  font-weight: bold;
+  letter-spacing: .5px;
+
+}
+#javavalley.skin-default .modal-header.bg-blue button{
+
+  color: #ffffff;
+  opacity: .8;
+  margin-top: 2px;
+}
+#javavalley.skin-default .modal-header.bg-blue button:hover{
+
+  opacity: 1;
+
+}
+
+#javavalley.skin-default .modal-dialog .checkbox label:before, #javavalley.skin-default .checkbox label:before {
+  display: block;
+  position: absolute;
+	content: '';
+  height: 20px;
+  width: 20px;
+  top: 0px;
+	left: 0;
+
+
+}
+#javavalley.skin-default .modal-dialog .checkbox input[type="checkbox"]:checked + label:before{
+
+  font-size: 1em;
+  top: 2px;
+	left: 0px;
+  text-align: center;
+
+}
+
+
+#javavalley.skin-default .checkbox input[type="checkbox"]{
+  position: absolute;
+  top: 0;
+
+  visibility: hidden;
+}
+#javavalley.skin-default .checkbox input[type="checkbox"]:checked + label{
+
+
+
+}
+#javavalley.skin-default .checkbox input[type="checkbox"]:checked + label:before{
+  content: "\f00c";
+  /*display: inline-block;*/
+
+  color: #ffffff;
+  top: 2px;
+  left: 2px;
+  font-family: FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1em;
+  background-color: #24272f;
+  border-color: #24272f;
+  text-align: center;
+
+}
+
+
+/* New style lang */
+#javavalley.skin-default .lang{
+  position: relative;
+}
+#javavalley.skin-default .lang.open .langBox{
+  display: block;
+}
+#javavalley.skin-default .lang .overlay{
+  display: none;
+}
+#javavalley.skin-default .lang.open .overlay{
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0);
+  z-index: 9998;
+}
+
+#javavalley.skin-default .lang .langBox{
+  position: absolute;
+  left: -115px;
+  bottom: 35px;
+  width: 265px;
+  /* height: 50px; */
+  background-color: #fbfcfc;
+  padding-left: 0;
+  margin-bottom: 0;
+  box-shadow: -9px -8px 18px 1px rgba(0,0,0,.05);
+  border-radius: 4px;
+  display: none;
+  z-index: 9999;
+}
+#javavalley.skin-default .lang .langBox li {
+  width: 100%;
+  list-style: none;
+  padding: 15px 15px;
+  border-top: 1px solid rgba(0,0,0,.1);
+
+
+}
+#javavalley.skin-default .lang .langBox li:hover {
+    /*border-top: 1px solid rgba(0,0,0,0);*/
+    background-color: rgba(0,0,0,.02) !important;
+
+
+}
+#javavalley.skin-default .lang .langBox li:first-child {
+  pointer-events: none;
+  cursor: default;
+  border-top: 0px solid rgba(0,0,0,.1);
+  font-weight: bold;
+
+}
+#javavalley.skin-default .lang .langBox li span{
+  color: #888888;
+}
+#javavalley.skin-default .lang .langBox li span span.short{
+  font-size: 1.2em;
+  margin-right: 25px;
+}
+
+
+/* Important info */
+#javavalley.skin-default.open-info .important-info{
+  position: fixed;
+  top: 50px;
+  right: 0;
+  background-color: #f4f5f6;
+  left: 230px;
+  /* height: 30px; */
+  z-index: 10;
+  font-weight: bold;
+  padding: 10px 25px 0;
+  box-shadow: 0 0 22px 1px rgba(0,0,0,.05);
+}
+
+
+
+
+/* detail product */
+#javavalley.skin-default .box{
+  border-top: none;
+  /*background-color: white;*/
+}
+
+
+#javavalley.skin-default input[type="text"].form-control{
+    width: 100%;
+    padding: 5px 20px;
+    border: solid 1px #ebebeb;
+    /*font-style: italic;*/
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+#javavalley.skin-default .form-group label.control-label{
+  font-size: 16px;
+  padding: 5px;
+  color: #3f4551;
+  font-weight: 400;
+  text-align: inherit;
+}
+
+#javavalley.skin-default .form-control:focus{
+  outline: none;
+  border: solid 1px #ebebeb!important;
+}
+
+#javavalley.skin-default select.form-control{
+    /*width: 100%;*/
+    padding: 0px 10px;
+    border: solid 1px #ebebeb;
+    /*font-style: italic;*/
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+#javavalley.skin-default .box.box-success{
+  /*padding: 43px;*/
+  border: none;
+  /*background-color: white!important;*/
+}
+
+#javavalley .f{
+  display: flex;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+}
+
+#javavalley .f-btw{
+  justify-content: space-between;
+}
+
+#javavalley .f-c{
+  flex-direction: column;
+}
+
+#javavalley .f-r{
+  flex-direction: row;
+}
+
+
+#javavalley .f-rht{
+  justify-content: flex-end;
+}
+
+#javavalley .mdl{
+  align-items: center;
+}
+
+@media screen and (max-width: 1366px){
+  #javavalley .f-c-1366{
+    flex-direction: column;
+  }
+}
+
+#javavalley.skin-default .content.new{
+  max-width: 496px;
+  width: 100%;
+  background-color: white;
+  border: solid 1px #ebebeb;
+  box-shadow: 0px 0px 14px 1px rgba(0,0,0,.1)
+}
+
+#javavalley.skin-default .content.new .main-tracking{
+  padding: 17px 30px;
+  padding-bottom: 30px;
+}
+
+#javavalley.skin-default .content.new .main-tracking h3{
+  padding: 0;
+  margin: 0;
+}
+#javavalley.skin-default .content.new input.full-input{
+    width: 100%;
+    padding: 5px 20px;
+    border: solid 1px #ebebeb;
+    /*font-style: italic;*/
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+#javavalley.skin-default .content.new input.full-input:focus{
+  outline: none;
+}
+
+#javavalley.skin-default .content.new span.warning{
+  color: #f39c12;
+  margin-bottom: 16px;
+  display: block;
+}
+#javavalley.skin-default .content.new .form-output{
+  text-align: center;
+  padding: 10px;
+  color: white;
+  border-radius: 0px 0px 4px 4px;
+}
+
+#javavalley.skin-default .content.new .form-output.success{
+  background: #52be7f;
+}
+
+#javavalley.skin-default .content.new .form-output.fail{
+  background: #ff3939;
+}
+#javavalley.skin-default .content.new .form-radio{
+  margin-top: 20px;
+  margin-bottom: 28px;
+}
+
+#javavalley.skin-default .content.new .form-radio .col-mode{
+  width: 15%;
+}
+
+#javavalley.skin-default .content.new .head-section{
+  padding-bottom: 15px;
+  border-bottom: solid 1px #ebebeb;
+}
+
+#javavalley.skin-default .content.new .content-section{
+  padding-top: 18px;
+}
+
+#javavalley.skin-default .content.new h3{
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 28px
+}
+
+#javavalley.skin-default .content.new .checkbox label, #javavalley.skin-default .content .checkbox label{
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  margin-bottom: 3px;
+  padding-left: 30px;
+}
+
+#javavalley.skin-default .main-footer{
+  margin-bottom: 0;
+}
+
+#javavalley.skin-default .content.new .form-radio .strumb label{
+  font-family: Roboto;
+  /*font-style: italic;*/
+  color: #afafaf;
+  margin-left: 19px;
+  cursor: pointer;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+#javavalley.skin-default .content.new .box.box-success.opr-box{
+  border-top: none;
+  max-height: 450px;
+  background-color: white;
+}
+
+#javavalley.skin-default .content.new .form-radio .strumb{
+  margin-bottom: 5px;
+}
+
+#javavalley.skin-default .content.new .form-radio .strumb input[type="radio"]{
+  opacity: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+#javavalley.skin-default .content.new .form-radio .strumb .check{
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  border: solid 1px #d2d2d2;
+}
+
+#javavalley.skin-default .content.new .form-radio .strumb .check::before{
+  content: '';
+  display: block;
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  left: 3px;
+  top: 3px;
+  border-radius: 50%;
+  margin: auto;
+
+}
+#javavalley.skin-default .content.new .form-radio .strumb input[type="radio"]:checked ~ label{
+  color: black;
+}
+
+#javavalley.skin-default .content.new .form-radio .strumb input[type="radio"]:checked ~ .check{
+  border-color: #52be7f;
+}
+#javavalley.skin-default .content.new .form-radio .strumb input[type="radio"]:checked ~ .check::before{
+  background: #52be7f;
+}
+
+#javavalley.skin-default .btn{
+  /*padding: 6px 20px;
+  font-size: 14px;
+  font-weight: 400;*/
+}
+
+#javavalley.skin-default .btn.btn-line{
+  background-color: transparent;
+  border: solid 1px gray;
+  color: gray;
+}
+
+#javavalley.skin-default .btn.btn-line.green{
+  border-color: #52be7f;
+  color: #52be7f;
+}
+
+#javavalley.skin-default .btn.btn-line.green:hover{
+  background-color: #52be7f;
+  color: white;
+}
+
+#javavalley.skin-default .btn.btn-success{
+  background-color: #52be7f;
+  color: white;
+}
+
+#javavalley.skin-default .btn.btn-primary{
+  background-color: #00a9e8;
+  color: white;
+  box-shadow: 1px 0px 5px 1px rgba(0,0,0,.1);
+  border: none;
+}
+
+#javavalley.skin-default .btn.btn-success:hover{
+  background-color: #3d9c65;
+}
+
+
+/* Style tracking */
+#javavalley.skin-default .box, #javavalley.skin-default .box-footer{
+  border-top: none;
+  border: none;
+  background-color: #fbfcfc;
+
+}
+
+
+#javavalley.skin-default input[type="text"].form-control{
+    width: 100%;
+    padding: 5px 20px;
+    border: solid 1px #ebebeb;
+    /*font-style: italic;*/
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+#javavalley.skin-default .form-group label.control-label{
+  font-size: 16px;
+  padding: 5px;
+  color: #3f4551;
+  font-weight: 400;
+  text-align: inherit;
+}
+
+#javavalley.skin-default .form-control:focus{
+  outline: none;
+  border: solid 1px #ebebeb!important;
+}
+
+#javavalley.skin-default select.form-control{
+    /*width: 100%;*/
+    padding: 0px 10px;
+    border: solid 1px #ebebeb;
+    /*font-style: italic;*/
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+#javavalley.skin-default .box.box-success{
+  /*padding: 43px;*/
+  border: none;
+  /*background-color: white!important;*/
+}
+
+#javavalley .f{
+  display: flex;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+}
+
+#javavalley .f-btw{
+  justify-content: space-between;
+}
+
+#javavalley .f-c{
+  flex-direction: column;
+}
+
+#javavalley .f-r{
+  flex-direction: row;
+}
+
+
+#javavalley .f-rht{
+  justify-content: flex-end;
+}
+
+#javavalley .mdl{
+  align-items: center;
+}
+
+@media screen and (max-width: 1366px){
+  #javavalley .f-c-1366{
+    flex-direction: column;
+  }
+}
+
+#javavalley.skin-default .content.new{
+  max-width: 496px;
+  width: 100%;
+  background-color: white;
+  border: solid 1px #ebebeb;
+  box-shadow: 0px 0px 14px 1px rgba(0,0,0,.1)
+}
+
+#javavalley.skin-default .content.new .main-tracking{
+  padding: 17px 30px;
+  padding-bottom: 30px;
+}
+
+#javavalley.skin-default .content.new .main-tracking h3{
+  padding: 0;
+  margin: 0;
+}
+#javavalley.skin-default .content.new input.full-input{
+    width: 100%;
+    padding: 5px 20px;
+    border: solid 1px #ebebeb;
+    /*font-style: italic;*/
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+#javavalley.skin-default .content.new input.full-input:focus{
+  outline: none;
+}
+
+#javavalley.skin-default .content.new span.warning{
+  color: #f39c12;
+  margin-bottom: 16px;
+  display: block;
+}
+#javavalley.skin-default .content.new .form-output{
+  text-align: center;
+  padding: 10px;
+  color: white;
+  border-radius: 0px 0px 4px 4px;
+}
+
+#javavalley.skin-default .content.new .form-output.success{
+  background: #52be7f;
+}
+
+#javavalley.skin-default .content.new .form-output.fail{
+  background: #ff3939;
+}
+#javavalley.skin-default .content.new .form-radio{
+  margin-top: 20px;
+  margin-bottom: 28px;
+}
+
+#javavalley.skin-default .content.new .form-radio .col-mode{
+  width: 15%;
+}
+
+#javavalley.skin-default .content.new .head-section{
+  padding-bottom: 15px;
+  border-bottom: solid 1px #ebebeb;
+}
+
+#javavalley.skin-default .content.new .content-section{
+  padding-top: 18px;
+}
+
+#javavalley.skin-default .content.new h3{
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 28px
+}
+
+#javavalley.skin-default .content.new label{
+  font-family: Roboto;
+  /*font-style: italic;*/
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+
+#javavalley.skin-default .main-footer{
+  margin-bottom: 0;
+}
+
+#javavalley.skin-default .content.new .form-radio .strumb label{
+  font-family: Roboto;
+  font-style: italic;
+  color: #afafaf;
+  margin-left: 19px;
+  cursor: pointer;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+#javavalley.skin-default .content.new .box.box-success.opr-box{
+  border-top: none;
+  max-height: 400px;
+  background-color: white;
+}
+
+#javavalley.skin-default .content.new .form-radio .strumb{
+  margin-bottom: 5px;
+}
+
+#javavalley.skin-default .content.new .form-radio .strumb input[type="radio"]{
+  opacity: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+#javavalley.skin-default .content.new .form-radio .strumb .check{
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  border: solid 1px #d2d2d2;
+}
+
+#javavalley.skin-default .content.new .form-radio .strumb .check::before{
+  content: '';
+  display: block;
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  left: 3px;
+  top: 3px;
+  border-radius: 50%;
+  margin: auto;
+
+}
+#javavalley.skin-default .content.new .form-radio .strumb input[type="radio"]:checked ~ label{
+  color: black;
+}
+
+#javavalley.skin-default .content.new .form-radio .strumb input[type="radio"]:checked ~ .check{
+  border-color: #52be7f;
+}
+#javavalley.skin-default .content.new .form-radio .strumb input[type="radio"]:checked ~ .check::before{
+  background: #52be7f;
+}
+
+#javavalley.skin-default .btn{
+  /*padding: 6px 20px;
+  font-size: 14px;
+  font-weight: 400;*/
+}
+
+#javavalley.skin-default .btn.btn-line{
+  background-color: transparent;
+  border: solid 1px gray;
+  color: gray;
+}
+
+#javavalley.skin-default .btn.btn-line.green{
+  border-color: #52be7f;
+  color: #52be7f;
+}
+
+#javavalley.skin-default .btn.btn-line.green:hover{
+  background-color: #52be7f;
+  color: white;
+}
+
+#javavalley.skin-default .btn.btn-success{
+  background-color: #52be7f;
+  color: white;
+}
+
+#javavalley.skin-default .btn.btn-primary{
+  background-color: #00a9e8;
+  color: white !important;
+  box-shadow: 1px 0px 5px 1px rgba(0,0,0,.1);
+  border: none;
+}
+
+#javavalley.skin-default .btn.btn-success:hover{
+  background-color: #3d9c65;
+}
+
+
+/*CSS OTHER COOYY*/
+
+/*
+  Default Color
+  Setup your color
+  darkBlue: #3f4551
+  red: #e9545a
+  green: #52be7f
+  blue: #00a9e8
+  orange: #f36d38
+
+  white: #fbfcfc
+  softGray: #d9dfe2
+  seconGray: #b6c4c5
+
+*/
+
+#javavalley{
+  /*overflow: hidden;*/
+}
+
+
+
+
+
+
+
+
+/* Button */
+#javavalley.skin-default .btn-default{
+  background-color: rgba(0,0,0,0);
+  color: #ffffff;
+  border-color: rgba(0,0,0,0);
+  /*font-size: 25px;*/
+}
+#javavalley.skin-default .btn-warning{
+  background-color: #f39c12;
+  color: #ffffff !important;
+  border-color: #f39c12;
+  /*font-size: 25px;*/
+}
+#javavalley.skin-default .btn-warning i{
+  color: #ffffff !important;
+}
+
+#javavalley.skin-default .btn-warning:hover{
+  background-color: #f39c12 !important;
+  color: #ffffff !important;
+  border-color: #f39c12;
+  /*font-size: 25px;*/
+}
+#javavalley.skin-default .btn-default:hover{
+  background-color: rgba(0,0,0,0) !important;
+  color: #ffffff;
+  border-color: rgba(0,0,0,0);
+}
+
+#javavalley.skin-default .btn-success{
+  background: #65c894;
+  border-color: #65c894;
+  box-shadow: 1px 0px 5px 1px rgba(0,0,0,.1);
+
+}
+#javavalley.skin-default .btn-success:hover{
+  background-color: #4faf76 !important;
+  border-color: #4faf76;
+}
+
+#javavalley.skin-default .btn-xs.btn-warning{
+  background-color: #f39c12;
+  color: #ffffff !important;
+  border-color: #f39c12;
+  font-size: 12px;
+  padding: 1px 5px;
+  /*font-size: 25px;*/
+}
+#javavalley.skin-default .btn-xs.btn-gray{
+  background-color: #999999;
+  color: #ffffff !important;
+  border-color: #999999;
+  font-size: 12px;
+  padding: 1px 5px;
+  /*font-size: 25px;*/
+}
+#javavalley.skin-default .btn-xs.btn-success{
+  background-color: #52be7f;
+  color: #ffffff !important;
+  border-color: #52be7f;
+  font-size: 12px;
+  padding: 1px 5px;
+  /*font-size: 25px;*/
+
+
+}
+#javavalley.skin-default .btn-xs.btn-error{
+  background-color: #e9545a;
+  color: #ffffff !important;
+  border-color: #e9545a;
+  font-size: 12px;
+  padding: 1px 5px;
+  /*font-size: 25px;*/
+
+
+}
+#javavalley.skin-default .btn-xs.btn-primary{
+  background-color: #00a9e8;
+  color: #ffffff !important;
+  border-color: #00a9e8;
+  font-size: 12px;
+  padding: 1px 5px;
+  /*font-size: 25px;*/
+
+
+}
+
+
+/* Typography */
+#javavalley.skin-default h1{
+  font-family: "Roboto", sans-serif;
+}
+#javavalley.skin-default .content-header > h1{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Header */
+@media (min-width: 768px){
+  #javavalley.skin-default .main-header .sidebar-toggle{
+    padding: 6px 15px;
+  }
+  #javavalley.skin-default .main-header  .nav.navbar-nav > li > a {
+      padding-top: 11px;
+      padding-bottom: 15px;
+   }
+}
+
+#javavalley.skin-default .main-header > .navbar {
+    /* Skin default */
+    background-color: #fbfcfc;
+}
+#javavalley.skin-default .main-header > a {
+    /* Skin default */
+    background-color: #3f4551;
+}
+
+
+
+#javavalley.skin-default .main-header > .navbar a{
+    /* Skin default */
+    /*color: #d9dfe2;
+    border-top: 5px solid rgba(255,255,255,0);*/
+}
+#javavalley.skin-default .nav.navbar-nav > li > a:hover,
+#javavalley.skin-default .nav.navbar-nav > li > a:focus{
+  /*background-color: #fbfcfc;
+  border-top: 5px solid #00a9e8;*/
+}
+#javavalley.skin-default .main-header  .navbar-nav > li > a > i{
+    font-size: 20px;
+ }
+
+ #javavalley.skin-default .main-header .navbar .nav > li.user > a > .fa,
+ #javavalley.skin-default .main-header .navbar .nav > li.user > a > .glyphicon,
+ #javavalley.skin-default .main-header .navbar .nav > li.user > a > .ion{
+   margin-right: 15px;
+ }
+
+
+#javavalley.skin-default .main-header a {
+    /* Skin default */
+    color: #ffffff;
+}
+
+
+/* sidebar */
+#javavalley.skin-default .sidebar a {
+    /* Skin default */
+    color: #d9dfe2;
+}
+#javavalley.skin-default .sidebar a span {
+    /* Skin default */
+    font-weight: normal;
+}
+#javavalley.skin-default .main-header a.sidebar-toggle {
+    /* Skin default */
+    color: #a5a5a5;
+    font-size: 25px;
+}
+
+#javavalley.skin-default .sidebar-menu{
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+#javavalley.skin-default .user-panel > .info > p {
+    font-size: 16px;
+}
+#javavalley.skin-default .user-panel > .info > p span.small {
+    display: block;
+    font-size: 11px;
+    margin: 5px auto;
+}
+
+#javavalley.skin-default .user-panel{
+  padding: 0 0;
+}
+
+#javavalley.skin-default .user-panel > .info{
+    padding: 20px 25px 4px;
+    width: 100%;
+    /*border-top: 1px solid rgba(255,255,255,.3);
+    border-bottom: 1px solid rgba(255,255,255,.3);*/
+    margin-bottom: 10px
+}
+#javavalley.skin-default .user-panel > .info > p i{
+    color: #4cceff;
+    font-size: 20px;
+}
+
+#javavalley.skin-default .sidebar-menu > li > a {
+    border-left: 3px solid transparent;
+    margin-right: 1px;
+    padding: 10px 5px 10px 25px;
+}
+
+#javavalley.skin-default .sidebar-menu > li > a > .fa,
+#javavalley.skin-default .sidebar-menu > li > a > .glyphicon,
+#javavalley.skin-default .sidebar-menu > li > a > .ion{
+  width: 16px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+
+#javavalley.skin-default .sidebar-menu > li > a:hover,
+#javavalley.skin-default .sidebar-menu > li.active > a{
+    /* Skin default */
+    /*border-left-color: #00a9e8;*/
+}
+
+#javavalley.skin-default .sidebar-menu > li > a:hover,
+#javavalley.skin-default .sidebar-menu > li.active > a{
+  /*color: #fff;
+  background: rgba(0, 0, 0, 0.54);
+  border-left-color: #00a9e8;*/
+}
+
+
+#javavalley.skin-default .center {
+  /*width: 100%;*/
+  display: block;
+  float: left;
+
+
+  /*padding: 0 25px;*/
+}
+#javavalley.skin-default .center button {
+  /*width: 100%;*/
+  border-top: 5px solid rgba(0,0,0,0);
+
+  /*padding: 0 25px;*/
+}
+#javavalley.skin-default .center button:hover{
+  /*width: 100%;*/
+
+  border-top: 5px solid rgba(0,0,0,0);
+  background-color: rgba(0,0,0,.02) !important;
+
+  /*padding: 0 25px;*/
+}
+#javavalley.skin-default .center .btn:first-child{
+  float: left;
+  color: #a5a5a5;
+}
+#javavalley.skin-default .center .btn:last-child{
+  float: right;
+  color: #a5a5a5;
+}
+
+/* Content */
+#javavalley.skin-default .box.box-success{
+  border-top-color: rgba(255,255,255,0);
+  background: rgba(0,0,0,0);
+
+}
+#javavalley.skin-default .content-header{
+  padding: 20px 25px 0 25px;
+}
+#javavalley.skin-default .content{
+  /*overflow: hidden;*/
+  padding: 15px 0;
+  padding-right: 0;
+  padding-left: 0;
+  /*background-color: #fbfcfc;*/
+  /*margin-top: 15px;*/
+}
+
+#javavalley.skin-default .content-wrapper,
+#javavalley.skin-default .right-side{
+  /*overflow: hidden;*/
+  background-color: #ececec;
+}
+#javavalley.skin-default .wrapper,
+#javavalley.skin-default .main-sidebar,
+#javavalley.skin-default .left-side{
+  /* Skin default */
+  background: #3f4551;
+
+}
+
+/* Content Box / panel */
+#javavalley.skin-default .nav.nav-tabs{
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: .5px;
+}
+#javavalley.skin-default .nav.nav-tabs .form-group{
+  margin-bottom: 0 !important;
+}
+#javavalley.skin-default .nav.nav-tabs .btn-success{
+  position: relative;
+  /*top: 12px;
+  padding: 10px 15px;*/
+  position: relative;
+  padding: 10px 20px;
+  top: 7px;
+}
+
+#javavalley.skin-default .nav-tabs > li.active > a{
+
+    background-color: #fbfcfc;
+}
+#javavalley.skin-default .nav.nav-tabs > li.active > a,
+#javavalley.skin-default .nav.nav-tabs > li.active > a:hover,
+#javavalley.skin-default .nav.nav-tabs > li.active > a:focus{
+  border: none;
+  background-color: #fbfcfc;
+}
+
+#javavalley.skin-default .nav.nav-tabs > li{
+    top: 0;
+    /*opacity: .5;*/
+
+  }
+#javavalley.skin-default .nav.nav-tabs > li.active{
+    top: 0px;
+    opacity: 1;
+}
+#javavalley.skin-default .nav.nav-tabs > li > a{
+    padding: 11px 15px;
+    /*background-color: rgba(0,0,0,0);*/
+    color: #00a9e8;
+    border-radius: 4px;
+    margin-right: 0;
+}
+#javavalley.skin-default .nav.nav-tabs > li.active > a{
+    padding: 11px 15px;
+    color: #3f4551;
+
+}
+
+
+#javavalley.skin-default .nav-tabs > li > a,
+#javavalley.skin-default .nav-tabs > li > a:hover{
+  border: none;
+  /*color: #00a9e8;*/
+
+}
+
+#javavalley.skin-default .nav.nav-tabs > li > a,
+#javavalley.skin-default .nav.nav-tabs > li > a:hover,
+#javavalley.skin-default .nav.nav-tabs > li > a:focus{
+
+  /*background-color: #efefef;*/
+  border-top: 0 solid #00a9e8 !important;
+}
+
+#javavalley.skin-default .nav.nav-tabs > li > a:hover,
+#javavalley.skin-default .nav.nav-tabs > li > a:focus{
+
+  background: #efefef;
+
+}
+
+#javavalley.skin-default .nav > li > a:hover,
+#javavalley.skin-default .nav > li > a:focus
+#javavalley.skin-default .box{
+  /*padding: 0 0px;*/
+  background: rgba(0,0,0,0);
+  box-shadow: none;
+}
+#javavalley.skin-default .box-header.with-border{
+  border: none;
+  padding: 10px 0;
+}
+#javavalley.skin-default .box-header{
+  padding: 10px 25px 0;
+  position: relative;
+}
+#javavalley.skin-default .tab-content{
+  padding: 0 25px;
+  background-color: #fbfcfc;
+  position: relative;
+  padding-top: 30px;
+}
+
+/* Footer */
+#javavalley.skin-default .main-footer{
+  background: #ececec;
+  /*padding: 15px;
+  margin-bottom: 0.5%;
+  color: #FFF;*/
+  border-top: 1px solid #ececec;
+}
+
+/* Table */
+#javavalley.skin-default table.table-default {
+  margin-bottom: 0px;
+  border: 1px solid #d9dfe2;
+}
+#javavalley.skin-default table.table.table-default > thead > tr > th {
+
+  border-bottom: 1px solid #d9dfe2;
+}
+#javavalley.skin-default .table.table-default > thead > tr > th,
+#javavalley.skin-default .table.table-default > tbody > tr > th,
+#javavalley.skin-default .table.table-default > tfoot > tr > th,
+#javavalley.skin-default .table.table-default > thead > tr > td,
+#javavalley.skin-default .table.table-default > tbody > tr > td,
+#javavalley.skin-default .table.table-default > tfoot > tr > td{
+  border-top: 1px solid #d9dfe2;
+}
+
+#javavalley.skin-default .table.table-default > thead > tr > th{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#javavalley.skin-default .table.table-default > tbody > tr > td{
+  padding: 15px 15px;
+}
+#javavalley.skin-default .table.table-default > tbody > tr > td > b{
+  color: #3f4551 !important;
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  font-size: 14px;
+
+}
+#javavalley.skin-default .table.table-default > tbody > tr > td > span{
+  padding-left: 0;
+  font-size: 14px;
+  color: #2f2f2f;
+  display: block;
+  padding-top: 0;
+}
+#javavalley.skin-default .table.table-default > tbody > tr > td > a  {
+  color: #00a9e8;
+}
+#javavalley.skin-default .table.table-default > tbody > tr > td > a .btn-default {
+  color: #999999;
+  font-size: 12px;
+  background-color: #f3f3f3;
+  border-radius: 6px;
+}
+
+#javavalley.skin-default .table.table-default > tbody > tr > td > a .btn-default:hover {
+  background-color: #e8e8e8 !important;
+}
+#javavalley.skin-default .table.table-default > tbody > tr:hover {
+  background-color: rgba(0,0,0,.02) !important;
+}
+
+/*#javavalley.skin-default .table-striped > tbody > tr:nth-of-type(2n+1){
+  background-color: rgba(0,0,0,0);
+}*/
+
+#javavalley.skin-default .table.table-default > tbody > tr > td .boxImg{
+  position: relative;
+  top: 0;
+  width: 100px;
+  height: 100px;
+  /*text-align: center;*/
+  background-color: #ffffff;
+  vertical-align: middle;
+  display: table-cell;
+  text-align: center;
+}
+#javavalley.skin-default .table.table-default > tbody > tr > td .boxImg span{
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  float: left;
+  z-index: 2;
+  text-align: center;
+  background-color: #f4f7f8;
+  color: #444444;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#javavalley.skin-default .table.table-default > tbody > tr > td .boxImg img{
+  vertical-align: middle;
+  /*width: 100%;*/
+  max-width: 100px;
+  max-height: 100px;
+
+}
+#javavalley.skin-default table.table-default thead th{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #b6c4c5;
+}
+#javavalley.skin-default table.table-default tbody{
+  font-family: 'Roboto', sans-serif;
+
+}
+
+#javavalley.skin-default .table-default.table-striped > tbody > tr:nth-of-type(2n+1){
+  background-color: rgba(0,0,0,0);
+}
+#javavalley.skin-default .table-default thead{
+  background: #f4f7f8;
+  border: 1px solid #d9dfe2;
+}
+
+
+/* checkbox */
+
+
+/* Detail Product */
+#javavalley.skin-default .box.tl-container{
+  width: 35%;
+  /*background-color: white;*/
+  /*border: solid 1px #ebebeb;*/
+  box-shadow: none;
+  /*padding: 10px;*/
+  border: none;
+}
+
+#javavalley.skin-default .box.tl-container .box{
+  border: solid 1px #ebebeb;
+  box-shadow: none;
+  /*background-color: white;*/
+  background-color: #fbfcfc;
+  padding: 20px 10px;
+
+}
+
+#javavalley.skin-default .box.detailContainer{
+  /*background-color: white;*/
+  background-color: #fbfcfc;
+  border: solid 1px #ebebeb;
+  box-shadow: none;
+  padding: 10px 30px;
+  min-height: 600px;
+}
+
+#javavalley.skin-default .box.tl-container .status-container{
+  padding: 20px 27px;
+  border: solid 1px #ebebeb;
+  /*background-color: white;*/
+  background-color: #fbfcfc;
+  margin-bottom: 25px;
+}
+
+#javavalley.skin-default .box.tl-container .status-container.gradient-style{
+  margin-bottom: 0;
+  background: #5263a5;
+  background: -moz-linear-gradient(-45deg, #5263a5 2%, #7be5cb 100%);
+  background: -webkit-linear-gradient(-45deg, #5263a5 2%,#7be5cb 100%);
+  background: linear-gradient(135deg, #5263a5 2%,#7be5cb 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5263a5', endColorstr='#7be5cb',GradientType=1 );
+  border-bottom: none;
+  color: white;
+}
+
+#javavalley.skin-default .box.tl-container .status-container.gradient-style .btn.blue{
+  background-color: transparent;
+  border: solid 1px white;
+}
+
+#javavalley.skin-default .box.tl-container .status-container.gradient-style h3{
+  font-weight: 200;
+  font-size: 28px;
+}
+
+
+#javavalley.skin-default .box.tl-container .status-container h3{
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+#javavalley.skin-default .box.tl-container .status-container span b{
+  /*font-size: 16px;*/
+}
+
+
+
+#javavalley.skin-default .box.tl-container .status-container .i-checkbox{
+  margin-bottom: 20px;
+}
+
+#javavalley.skin-default .box.detailContainer.second{
+  min-height: inherit;
+  padding-top: 50px;
+}
+
+
+#javavalley.skin-default .detail-col{
+  width: 65%;
+  margin: 0px 25px;
+}
+
+@media screen and (max-width: 1366px){
+  #javavalley.skin-default .box.tl-container{
+    width: 40%;
+  }
+  #javavalley.skin-default .detail-col{
+    width: 60%;
+  }
+}
+
+#javavalley.skin-default .header-section{
+  border-bottom: solid 1px #ebebeb;
+}
+
+#javavalley.skin-default .header-section a i.fa{
+  color: black;
+  font-size: 2em;
+  margin-top: 14px;
+}
+
+#javavalley.skin-default .content-section{
+  margin-top: 20px;
+}
+
+#javavalley.skin-default .content-section .img-preview{
+  padding: 24px;
+  text-align: center;
+}
+
+#javavalley.skin-default .content-section .img-preview img{
+  max-height: 330px;
+  width: auto;
+}
+
+
+#javavalley.skin-default .main-information h4{
+  font-family: Roboto;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+#javavalley.skin-default .main-information .col-md-5, #javavalley.skin-default .main-information .col-md-7{
+  padding: 0;
+}
+#javavalley.skin-default .main-information .col-md-7{
+  padding-left: 15px;
+}
+
+#javavalley.skin-default .box.detailContainer h3{
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 28px
+}
+
+#javavalley.skin-default .box.detailContainer h3.sub{
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 24px;
+  margin: 0;
+}
+
+
+#javavalley.skin-default table.detailTable{
+  border: none;
+  width: 100%;
+  margin-bottom: 20px
+}
+#javavalley.skin-default table.detailTable tr {
+  width: 100%;
+}
+#javavalley.skin-default table.detailTable tr td{
+  padding-bottom: 7px;
+  font-size: 13px;
+  line-height: 23px;
+}
+
+#javavalley.skin-default table.detailTable tr td:first-child{
+  color: #000000;
+  width: 47%;
+  vertical-align: baseline;
+}
+
+#javavalley.skin-default .main-information .tag{
+  background-color: #50ba7c;
+  display: inline-block;
+  color: white;
+  border-radius: 3px;
+  padding: 1px 9px;
+}
+
+#javavalley.skin-default .detailContainer .main{
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+#javavalley.skin-default .detailContainer .main ul{
+  padding-left: 30px;
+}
+
+#javavalley.skin-default .detailContainer .main ul li{
+  font-size: 15px;
+}
+
+#javavalley.skin-default .detailContainer .main table#bit-booster-tbl{
+  border: none;
+}
+
+
+#javavalley.skin-default .detailContainer .i-checkbox span{
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+#javavalley.skin-default .detailContainer .i-checkbox{
+  margin-bottom: 10px;
+}
+
+#javavalley.skin-default .detailContainer .route-container{
+  border-left: solid 1px #ebebeb;
+  padding-left: 30px;
+}
+
+
+#javavalley.skin-default .timelinelabel{
+  border-radius: .25em;
+}
+
+#javavalley.skin-default .notes-container{
+  padding-right: 40px;
+}
+
+#javavalley.skin-default .notes-container .main .profil-pic{
+  text-align: center;
+}
+
+#javavalley.skin-default .notes-container .main textarea.form-control{
+  border: none;
+  padding: 12px 20px;
+}
+
+#javavalley.skin-default .notes-container .main textarea.form-control:focus{
+  border: none !important;
+  outline: none;
+}
+
+
+
+
+#javavalley.skin-default .n-p-l{
+  padding-left: 0;
+}
+
+#javavalley.skin-default .notes-container .main .profil-pic img{
+  height: 50px;
+  width: auto;
+  border-radius: 50px;
+  border: solid 1px #ebebeb;
+}
+
+#javavalley.skin-default .notes-container .comment-body{
+  background-color: transparent;
+  margin-bottom: 15px;
+  border-bottom: solid 1px #ebebeb;
+}
+
+#javavalley.skin-default .notes-container .comment-body h6{
+  font-size: 11px;
+  color: #c8d2d7;
+}
+
+#javavalley.skin-default .notes-container .comment-body strong{
+  color: #2a3e48;
+  font-size: 16px;
+}
+
+#javavalley.skin-default .notes-container .comment-body p{
+  margin-top: 10px;
+  color: #747f8b;
+}
+
+
+@media screen and (max-width: 1366px){
+ #javavalley.skin-default .notes-container .comment-body .col-md-2, #javavalley.skin-default .notes-container .form-group .col-md-2{
+     width: 25%;
+ }
+ #javavalley.skin-default .notes-container .comment-body .col-md-10, #javavalley.skin-default .notes-container .form-group .col-md-10{
+     width: 75%;
+ }
+
+ #javavalley.skin-default .detailContainer .route-container{
+   padding-left: 15px;
+ }
+}
+
+/* Dashboard */
+
+#javavalley.skin-default #dashboard{
+  font-family: "Roboto", sans-serif;
+}
+#javavalley.skin-default .bg-teal-gradient{
+  /*background: #3f4551 !important;*/
+  /*background: -o-linear-gradient(#7adddd, #39cccc) !important;
+  background: linear-gradient(#7adddd, #39cccc) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7adddd', endColorstr='#39cccc', GradientType=0) !important;*/
+}
+#javavalley.skin-default h5.box-title.dash,
+#javavalley.skin-default h4.box-title.dash,
+#javavalley.skin-default h4.box-title.dash {
+  padding: 5px 15px;
+  font-size: 14px !important;
+}
+ #javavalley.skin-default .bg-teal{
+   padding: 10px 25px;
+ }
+/*datepicker */
+#javavalley.skin-default .datepicker thead tr:first-child th:hover,
+#javavalley.skin-default .datepicker tfoot tr th:hover,
+#javavalley.skin-default .datepicker table tr td.day:hover,
+#javavalley.skin-default .datepicker table tr td.day.focused{
+  background: rgba(0,0,0,.03);
+}
+
+#javavalley.skin-default .datepicker table tr td.today:hover,
+#javavalley.skin-default .datepicker table tr td.today:hover:hover,
+#javavalley.skin-default .datepicker table tr td.today.disabled:hover,
+#javavalley.skin-default .datepicker table tr td.today.disabled:hover:hover,
+#javavalley.skin-default .datepicker table tr td.today:focus,
+#javavalley.skin-default .datepicker table tr td.today:hover:focus,
+#javavalley.skin-default .datepicker table tr td.today.disabled:focus,
+#javavalley.skin-default .datepicker table tr td.today.disabled:hover:focus,
+#javavalley.skin-default .datepicker table tr td.today:active,
+#javavalley.skin-default .datepicker table tr td.today:hover:active,
+#javavalley.skin-default .datepicker table tr td.today.disabled:active,
+#javavalley.skin-default .datepicker table tr td.today.disabled:hover:active,
+#javavalley.skin-default .datepicker table tr td.today.active,
+#javavalley.skin-default .datepicker table tr td.today:hover.active,
+#javavalley.skin-default .datepicker table tr td.today.disabled.active,
+#javavalley.skin-default .datepicker table tr td.today.disabled:hover.active,
+#javavalley.skin-default .open .dropdown-toggle.datepicker table tr td.today,
+#javavalley.skin-default .open .dropdown-toggle.datepicker table tr td.today:hover,
+#javavalley.skin-default .open .dropdown-toggle.datepicker table tr td.today.disabled,
+#javavalley.skin-default .open .dropdown-toggle.datepicker table tr td.today.disabled:hover{
+  font-weight: bold;
+  color: #000000;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+#javavalley.skin-default .datepicker table tr td.old,
+#javavalley.skin-default .datepicker table tr td.new{
+  color: #d8d8d8;
+}
+/* Hidden scroll */
+
+#javavalley.skin-default ul.sidebar-menu {
+  min-height: 500px;
+  height: 500px;
+  overflow: auto;
+}
+
+ /*html {
+     overflow: scroll;
+     overflow-x: hidden;
+ }
+ ::-webkit-scrollbar {
+     width: 10px;
+
+ }
+
+ ::-webkit-scrollbar-thumb {
+     background: rgba(0,0,0,.2);
+ }*/
+/* Info no record */
+#javavalley.skin-default  .infoNorecord{
+  text-align: center;
+
+}
+#javavalley.skin-default  .table.table-default > tbody > tr .infoNorecord .iconRecord{
+  font-size: 2em;
+  display: block;
+}
+#javavalley.skin-default  .table.table-default > tbody > tr .infoNorecord .iconRecord i{
+  color: #d9dfe2 !important;
+}
+#javavalley.skin-default  .table.table-default > tbody > tr .infoNorecord .textRecord{
+  font-size: 1em;
+  display: block;
+  font-weight: bold;
+  color: #d9dfe2 !important;
+}
+
+
+
+/*red: #e9545a
+green: #52be7f
+blue: #00a9e8
+yellow: #f39c12*/
+
+/* Global Theme */
+
+/* Info */
+.radialInfo{
+  position: relative;
+  top: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.radialInfo:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+.radialInfo.radial-info{
+  background-color: #00a9e8 !important;
+}
+.radialInfo.radial-info:before{
+  content: 'Info';
+  position: absolute;
+  top: 0;
+  right: 20px;
+  color: #999999;
+}
+
+.radialInfo.radial-warning{
+  background-color: #f39c12 !important;
+}
+.radialInfo.radial-warning:before{
+  content: 'Pending';
+  position: absolute;
+  top: 0;
+  right: 20px;
+  color: #999999;
+}
+.radialInfo.radial-success{
+    background-color: #52be7f !important;
+}
+.radialInfo.radial-success:before{
+  content: 'Arrived';
+  position: absolute;
+  top: 0;
+  right: 20px;
+  color: #999999;
+
+}
+
+.radialInfo.radial-danger{
+    background-color: #e9545a !important;
+}
+.radialInfo.radial-danger:before{
+  content: 'Error';
+  position: absolute;
+  top: 0;
+  right: 20px;
+  color: #999999;
+
+}
+
+
+
+
+
+/* Button */
+#javavalley.skin-default .btn-info,
+#javavalley.skin-default .label-info{
+  background-color: #00a9e8 !important;
+  background: #00a9e8 !important;
+  color: #ffffff !important;
+}
+#javavalley.skin-default .btn-info:hover,
+#javavalley.skin-default .label-info:hover{
+  background-color: #028dc1 !important;
+  background: #028dc1 !important;
+  color: #ffffff !important;
+}
+#javavalley.skin-default .btn-success,
+#javavalley.skin-default .label-success{
+  background-color: #52be7f !important;
+  background: #52be7f !important;
+  color: #ffffff !important;
+}
+#javavalley.skin-default .btn-success:hover,
+#javavalley.skin-default .label-success:hover{
+  background-color: #45a06b !important;
+  background: #45a06b !important;
+  color: #ffffff !important;
+}
+
+#javavalley.skin-default .btn-warning,
+#javavalley.skin-default .label-warning{
+  background-color: #f39c12 !important;
+  background: #f39c12 !important;
+  color: #ffffff !important;
+}
+
+#javavalley.skin-default .btn-warning:hover,
+#javavalley.skin-default .label-warning:hover{
+  background-color: #c57f0f !important;
+  background: #c57f0f !important;
+  color: #ffffff !important;
+}
+
+
+#javavalley.skin-default .btn-danger,
+#javavalley.skin-default .label-danger{
+  background-color: #e9545a !important;
+  background: #e9545a !important;
+  color: #ffffff !important;
+}
+
+#javavalley.skin-default .btn-success,
+#javavalley.skin-default .label-success,
+#javavalley.skin-default .btn-info,
+#javavalley.skin-default .label-info,
+#javavalley.skin-default .btn-warning,
+#javavalley.skin-default .label-warning,
+#javavalley.skin-default .btn-danger,
+#javavalley.skin-default .label-danger{
+  color: #ffffff !important;
+}
+
+#javavalley.skin-default .btn-danger:hover,
+#javavalley.skin-default .label-danger:hover{
+  background-color: #bd4045 !important;
+  background: #bd4045 !important;
+  color: #ffffff !important;
+}
+
+
+#javavalley.skin-default .content.new .form-radio .strumb{
+  position: relative;
+}
+
+#javavalley.skin-default .content.new .form-radio .strumb .check{
+  left: 0;
+}
+
+
+table.detailTable {
+    /*font-family: "open sans", sans-serif;
+    font-weight: normal;*/
+}
+
+
+#javavalley.skin-default .btn.btn-primary {
+   background-color: #00a9e8 ;
+   border: 1px solid #00a9e8 ;
+   box-shadow: 1px 0 5px 1px rgba(0, 0, 0, 0.1);
+   color: white;
+}
+
+.select2-container .select2-selection {
+  height: 34px !important;
+  line-height: 34px !important;
+  border: 1px solid #ebebeb !important;
+  font-family: Roboto !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  padding: 0 10px !important;
+}
+
+.select2-container .select2-selection  span {
+line-height: 34px !important;
+}
+
+.select2-results, .select2-search__field {
+  font-family: Roboto !important;
+  font-size: 11px !important;
+  font-weight: 400 !important;
+}
+
+#javavalley.skin-default .label{
+    white-space: normal !important;
+    max-width: 440px !important;
+}
+
+#javavalley.skin-default a.dt-button:hover{
+    color:#00a9e8 !important;
+}
+
+.DTFC_LeftBodyLiner {
+  overflow-y:hidden !important;
+}

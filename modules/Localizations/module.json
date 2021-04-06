@@ -1,0 +1,15 @@
+{
+    "name": "Localizations",
+    "alias": "localizations",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Localizations\\Providers\\LocalizationsServiceProvider"
+    ],
+    "aliases":{},
+    "files": [
+        "start.php"
+    ]
+}

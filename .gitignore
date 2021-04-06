@@ -1,0 +1,16 @@
+/node_modules
+Homestead.yaml
+Homestead.json
+/.DS_Store
+/Thumbs.db
+/*.sublime-project
+/*.sublime-workspace
+.idea
+.project
+_ide_helper.php
+composer.phar
+error.log
+Todo.rtf
+/nbproject/
+/tests/
+/uploads/
