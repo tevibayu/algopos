@@ -46,7 +46,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<p class="text-center">
-							<strong>Sales: 1 Jan, 2014 - 30 Jul, 2014</strong>
+							<strong>Sales: 1 April, 2021 - 6 April, 2021</strong>
 						</p>
 
 						<table class="table table-striped table-default table-hover" style="margin-bottom: 0px;" id="filltable">

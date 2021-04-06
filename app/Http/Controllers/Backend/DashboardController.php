@@ -23,7 +23,6 @@ class DashboardController extends Controller {
 	public function index()
 	{
 
-
         $date_int = range(1,date('t', mktime(0, 0, 0, date('m', strtotime("-1 month")), 1, date('Y', strtotime("-1 month")))));
         array_walk($date_int, function(&$item) {
             $item = date('Y', strtotime("-1 month")).'-'.date('m', strtotime("-1 month")).'-'.str_pad($item, 2, '0', STR_PAD_LEFT); 
@@ -51,20 +50,14 @@ class DashboardController extends Controller {
             return $value->total_qty;
         }, $result);
 
-        // die(print_r($date));
 
         $chart = Charts::multi('bar', 'chartjs')
-            // Setup the chart settings
             ->title("Order Graph (Monthly)")
-            ->dimensions(0, 400) // Width x Height
+            ->dimensions(0, 400)
             ->template("chartjs")
-            ->colors(['#2196F3', '#F44336', '#FFC107']);
-
-            $chart = $chart->dataset('Qty by Order', $orderqty);
-
-   
-
-            $chart = $chart->labels($date);
+            ->colors(['#2196F3', '#F44336', '#FFC107'])
+            ->dataset('Qty by Order', $orderqty)
+            ->labels($date);
 
 
 
@@ -86,7 +79,7 @@ class DashboardController extends Controller {
         $limit = 10;
 		$last = Order::select('order.id_order', 'order.buyer_name', 'order.address', 'order.created_at', DB::raw("SUM(order_detail.total_price) as total_amount"))
                                 ->leftJoin('order_detail', 'order.id_order', '=', 'order_detail.id_order')
-                                ->orderBy('order.id_order', 'desc')
+                                ->orderBy('order.created_at', 'desc')
                                 ->groupBy('order.id_order')
                                 ->paginate($limit);
 
